@@ -105,10 +105,10 @@ The packaging tool `@vscode/vsce` is pinned to 3.9.2 because the published 4.0.0
 ## Links and feedback
 
 - [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=AlessandroBenassi.cloudflare-devtools)
-- [GitHub repository](https://github.com/solid-pixel/vscode-cloudflareDevTools)
-- [GitHub releases](https://github.com/solid-pixel/vscode-cloudflareDevTools/releases)
+- [GitHub repository](https://github.com/ale-benassi/vscode-cloudflareDevTools)
+- [GitHub releases](https://github.com/ale-benassi/vscode-cloudflareDevTools/releases)
 - [Changelog](CHANGELOG.md)
-- [Report an issue](https://github.com/solid-pixel/vscode-cloudflareDevTools/issues/new)
+- [Report an issue](https://github.com/ale-benassi/vscode-cloudflareDevTools/issues/new)
 - [Cloudflare API](https://developers.cloudflare.com/api/)
 - [Website](https://alebenassi.com/)
 - [LinkedIn](https://www.linkedin.com/in/ap-benassi/)

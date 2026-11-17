@@ -435,7 +435,7 @@ test('migration notice actions open the setup guide or the secure token input', 
 		await f.controller.start();
 		await flush();
 		if (selection === 'Setup Guide') {
-			assert.deepEqual(f.messages.links, ['https://github.com/solid-pixel/vscode-cloudflareDevTools#getting-started']);
+			assert.deepEqual(f.messages.links, ['https://github.com/ale-benassi/vscode-cloudflareDevTools#getting-started']);
 		} else {
 			assert.equal(await f.context.secrets.get(TOKEN_KEY), 'replacement-token');
 			assert.equal(f.values['api.key'], 'legacy-key');
