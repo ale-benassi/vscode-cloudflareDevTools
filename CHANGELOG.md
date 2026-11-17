@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## **1.1.3**
+
+- Update repository, issue, changelog and README image links after the GitHub account rename to `ale-benassi`.
+- Update packaging dependencies and scoped matcher overrides to resolve development dependency advisories.
+
 ## **1.1.2**
 
 - Point the Marketplace Homepage link to https://alebenassi.com/.

@@ -11,4 +11,5 @@ node_modules/**
 .nvmrc
 package-lock.json
 eslint.config.js
+AGENTS.md
 **/*.map

@@ -55,7 +55,7 @@ async function verifyPackage(filename = packagePath) {
 	}
 	for (const name of entries.keys()) {
 		assert.ok(!/^extension\/(?:node_modules|test|scripts|\.github|\.vscode|dist|out)\//.test(name), `Development files must not ship: ${name}`);
-		assert.ok(!/^extension\/(?:package-lock\.json|eslint\.config\.js|\.nvmrc|\.gitignore)$/.test(name), `Development configuration must not ship: ${name}`);
+		assert.ok(!/^extension\/(?:package-lock\.json|eslint\.config\.js|AGENTS\.md|\.nvmrc|\.gitignore)$/.test(name), `Development configuration must not ship: ${name}`);
 	}
 	console.log(`Verified ${path.basename(filename)} (${entries.size} files): runtime sources, metadata and assets are present; development files are excluded.`);
 	return entries;
