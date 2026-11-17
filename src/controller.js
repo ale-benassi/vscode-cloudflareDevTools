@@ -4,7 +4,7 @@ const TOKEN_KEY = 'cloudflareDevTools.apiToken';
 const PREFIX = 'cloudflareDevTools';
 const MIGRATION_NOTICE_KEY = 'cloudflareDevTools.apiTokenNotice.v1';
 const CLEANUP_NOTICE_KEY = 'cloudflareDevTools.apiTokenCleanupNotice.v1';
-const SETUP_GUIDE = 'https://github.com/solid-pixel/vscode-cloudflareDevTools#getting-started';
+const SETUP_GUIDE = 'https://github.com/ale-benassi/vscode-cloudflareDevTools#getting-started';
 
 function createController(vscode, context, client, timers = { setTimeout, clearTimeout }) {
 	const status = vscode.window.createStatusBarItem(vscode.StatusBarAlignment.Right);
